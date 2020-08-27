@@ -9,22 +9,35 @@
 - Install redis-server
 `apt-get install redis-server`
 
-
+------------
 
 ### Configurare redis server
 
 - Edit configuration
-`/etc/redis/redis.conf`
 
-- Bind address
-`bind ip-address`
+	`/etc/redis/redis.conf`
 
-- Auth password
-`requirepass passwordmustbestrongaf`
 
+------------
+
+
+IP address we will be using later to connect to the redis server from the web server
+
+	bind ip-address
+
+
+ Uncoment and make strong password 
+
+	requirepass passwordmustbestrongaf
+
+
+------------
 - Restart service
-`service redis-server restart`
 
+	`service redis-server restart`
+
+
+------------
 
 ## Configure codeigniter app
 
