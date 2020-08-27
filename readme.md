@@ -17,12 +17,12 @@
 
 	`/etc/redis/redis.conf`
 
-*IP address we will be using later to connect to the redis server from the web server*
+IP address we will be using later to connect to the redis server from the web server
 
 >bind ip-address
 
 
-  *Uncoment and make strong password *
+  Uncoment and make strong password 
 
 >requirepass passwordmustbestrongaf
 
