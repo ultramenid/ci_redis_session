@@ -1,4 +1,4 @@
-### Install redis server
+### Install redis server (e.g. UBUNTU 18.04)
 
 - Add repository redis
 `add-apt-repository ppa:chris-lea/redis-server`
